@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">Doa dan Dzikir App</string>
 
-    <string name="app_name">Doa &amp; Dzikir App</string>
-
 
     <string name="txt_judul_fitur">Kumpulan Doa &amp; Dzikir Sehari-Hari</string>
     <string name="txt_sunnah_qauliyah">Sunnah-Sunnah Qauliyah \nDzikir &amp; Doa Shalat</string>
@@ -28,7 +26,7 @@
     <string name="content_txt_image_artikel">Image Poster Detail Artikel</string>
 
 
-    <string-array name="arr_img_artikel">
+    <integer-array name="arr_img_artikel">
         <item>@drawable/artikel_1</item>
         <item>@drawable/bg_artikel</item>
         <item>@drawable/artikel_1</item>
@@ -37,7 +35,7 @@
         <item>@drawable/bg_artikel</item>
         <item>@drawable/artikel_1</item>
         <item>@drawable/bg_artikel</item>
-    </string-array>
+    </integer-array>
 
 
     <string-array name="arr_title_artikel">

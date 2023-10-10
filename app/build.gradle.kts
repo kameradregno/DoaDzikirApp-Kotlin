@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -33,7 +34,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    buildFeatures{
+    buildFeatures {
         viewBinding = true
     }
 }
@@ -50,4 +51,6 @@ dependencies {
 
 //    splashscreen API 12
     implementation("androidx.core:core-splashscreen:1.0.1")
+
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 }
